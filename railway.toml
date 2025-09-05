@@ -6,7 +6,8 @@ startCommand = "java -Dspring.profiles.active=railway -jar target/multi-level-ma
 healthcheckPath = "/health"
 healthcheckTimeout = 300
 restartPolicyType = "ON_FAILURE"
-startupTimeout = 180
+startupTimeout = 300
 
 [deploy.envs]
 JAVA_OPTS = "-Xmx512m -Xms256m"
+SPRING_PROFILES_ACTIVE = "railway"
