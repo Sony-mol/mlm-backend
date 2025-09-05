@@ -1,0 +1,16 @@
+# Copy these environment variables to your Railway project dashboard
+
+# Database Configuration
+DATABASE_URL=mysql://root:LzmDpwGoUHexHDSIypeYbAHNOyCPRrMo@mysql.railway.internal:3306/railway
+DB_USERNAME=root
+DB_PASSWORD=LzmDpwGoUHexHDSIypeYbAHNOyCPRrMo
+
+# Email Configuration
+MAIL_HOST=smtp.gmail.com
+MAIL_PORT=587
+MAIL_USERNAME=rahulmekala22@gmail.com
+MAIL_PASSWORD=xulx wktg qvvu kbfm
+
+# Application Configuration (Auto-set by Railway)
+PORT=8080
+JAVA_OPTS=-Xmx512m -Xms256m

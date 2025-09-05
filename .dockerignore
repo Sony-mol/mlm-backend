@@ -1,0 +1,16 @@
+target/
+.git/
+.gitignore
+.gitattributes
+README.md
+*.md
+.idea/
+.vscode/
+*.log
+.env
+.env.local
+.env.production
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
